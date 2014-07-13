@@ -55,7 +55,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
 	}
   gitbook.events.bind("page.change", function(e, config) {		
 			$(".book-body a").each(function(index, link){
-				if(link.href && link.href.match(/jsbin.com\/.*embed/)){
+				if(link.href && link.href.match(/jsbin.com\/.*/)){
 					embed(link);
 				}
 			});
