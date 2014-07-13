@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-jsbin",
     "description": "JSBin Integration into GitBook",
     "main": "index.js",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "engines": {
         "gitbook": "*"
     },
