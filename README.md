@@ -14,6 +14,8 @@ $ npm install gitbook-plugin-jsbin --save
     }
 }
 ```
-### 3. paste jsbin embedded code to you book like [my book](http://jcouyang.gitbooks.io/functional-javascript/zh/functor_&_monad/functor.html)
+### 3. paste jsbin embedded code to you book something like
+`[source code](http://jsbin.com/xezun/1/embed?js,console)`
 
-now your embedded code of jsbin will be render in gitbook.
+will be rendered like [my book](http://jcouyang.gitbooks.io/functional-javascript/zh/functor_&_monad/functor.html) does
+
